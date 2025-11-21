@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campanhas</title>
+  <link rel="stylesheet" href="camp.css">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.0/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav>
+      <div class="bar">
+        <ul>
+           <img id="logo" src="/img/logo.png">
+          <a id="rs" href="/Htmls/Dash.html"><li>Home</li></a>
+
+          <a id="rg" href="/Htmls/Registros.html"><li>Registros</li></a>
+          
+          <a href="/Htmls/Galeria.html"><li>Galeria</li></a>
+
+          <div class="perf">
+            <a id="lgn" href="login.html">Logout</a>
+            <img class="perfil" src="/img/perfil.png">
+          </div>
+
+        </ul>
+      </div>
+    </nav>
+
+  <main>
+    <header>
+      <h2>Campanhas</h2>
+      <div class="btn">
+        <img src="adicionar.png">
+        <button>Adicionar Campanha</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="cab">
+        <input type="search" placeholder="Pesquisar campanhas por nome ou tema" id="">
+
+
+        <button id="dropdownDefaultButton drop"
+          style="border-radius: 10px; height: 5vh; margin: 5px; margin-left: 30px;" data-dropdown-toggle="dropdown"
+          class="inline-flex items-center justify-center text-black bg-brand box-border border border-black hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none"
+          type="button">
+          filtrar
+          <svg class="w-4 h-4 ms-1.5 -me-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+            height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m19 9-7 7-7-7" />
+          </svg>
+        </button>
+
+        <!-- Dropdown menu -->
+        <div id="dropdown"
+          class="block2 z-10 hidden bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44">
+          <ul class="p-2 text-sm text-body font-medium" aria-labelledby="dropdownDefaultButton">
+            <li>
+              <a href="#"
+                class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Data</a>
+            </li>
+            <li>
+              <a href="#"
+                class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Mês</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="cont">
+        <div class="camps">
+
+          <div class="block c1">
+            <img src="img/set-amarelo.png">
+            <div class="txt">
+              <h3>Setembro amarelo</h3>
+              <h2>Campanha para a prevenção ao suicidio</h2>
+              <h5>#SAUDEMENTAL #CAMPANHA #PREVENÇÃO</h5>
+              <p>publicado em 12/09/25</p>
+
+            </div>
+          </div>
+
+          <div class="block c2">
+            <img src="img/nv-azul.webp">
+            <div class="txt">
+              <h3>Novembro azul</h3>
+              <h2>Campanha para a prevenção e diagnóstico precoce do câncer de próstata</h2>
+              <h5>#SAUDEMENTAL #CAMPANHA #PREVENÇÃO</h5>
+              <p>publicado em 20/11/25</p>
+            </div>
+          </div>
+
+            <div class="block c3">
+              <img src="img/out-rosa.png">
+              <div class="txt">
+                <h3>Outubro rosa</h3>
+                <h2>Campanha para a prevenção do câncer do colo do útero</h2>
+                <h5>#SAUDEMENTAL #CAMPANHA #PREVENÇÃO</h5>
+                <p>publicado em 12/10/25</p>
+              </div>
+
+            </div>                     
+
+        </div>
+            <div class="bar-lat">
+              <div class="bar-int">
+                <h2>Estatisticas</h2>
+                <h5>Total</h5>
+                <h3>20</h3>
+                <p>Temas abordados</p>
+                <h6>Setembro amarelo novembro azul</h6>
+                <h1>Ultimo upload</h1>
+                <p class="barp">Há 2 dias</p>
+              </div>
+            </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.0/dist/flowbite.min.js"></script>
+</body>
+
+</html>

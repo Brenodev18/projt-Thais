@@ -1,0 +1,110 @@
+@view-transition {
+  navigation: auto;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f9f8f6;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar{
+    margin-left: -50px;
+    margin-top: -24px;
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    align-content: center;
+    z-index: 1;
+}
+
+#hm{
+    width: 8vw;
+    border-radius: 10px;
+    background-color: #6f9c8b;
+    color: white;
+}
+
+.bar  a{
+    height: 5vh;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    align-content: center;
+}
+
+.bar ul{
+    font-size: 25px;
+    font-weight: lighter;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.bar li{
+    width: 10vw;
+    border-radius: 10px;
+}
+
+.bar ul li:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    color: black;
+}
+
+.bar img{
+    
+    width: 150px;
+    height: 150px;
+}
+
+.perf{
+    align-items: center;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+.perf a{
+    margin-top: 0;
+    height: 30px;
+}
+
+.bar .perfil{
+    width: 50px;
+    height: 50px;
+    opacity: 50%;
+}
+
+#lgn{
+    font-weight: bold;
+    color: #525e5b;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#lgn:hover{
+    color:#00d5ff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#logo{
+    width: 350px;
+    height: 180px;
+    margin-left: -10vw;
+}
+
+.containeer5{
+    width: 100vw;
+    height:90vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
