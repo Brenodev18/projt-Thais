@@ -2,9 +2,13 @@
   navigation: auto;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     font-family: 'Times New Roman', Times, serif;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: #f9f8f6;
     display: flex;
@@ -100,6 +104,11 @@ body{
     margin-left: -10vw;
 }
 
+.containeer a{
+    text-decoration: none;
+    color: black;
+}
+
 .containeer5{
     width: 100vw;
     height:90vh;
@@ -107,4 +116,88 @@ body{
     flex-direction: row;
     position: relative;
 
+}
+
+.containeer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.containeer ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.containeer ul li{
+    width: 12vw;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.containeer ul li:hover{
+    background-color: rgba(127, 255, 212, 0.562);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fts{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+    height: auto;
+
+    gap: 20px;
+}
+
+.fts img{
+    margin: auto;
+    width: 400px;
+    height: 280px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+.cad{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+.cad p{
+    height: 30px;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+
+.cad h2{
+    margin-bottom: -12px;
+    font-weight: lighter;
+    height: 20px;
+    font-size: 20px;
+}
+
+.cad h5{
+    height: 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.camp{
+    background-color: #b1f1d9;
 }
